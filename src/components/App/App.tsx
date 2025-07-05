@@ -60,6 +60,7 @@ const handleSearch = async (query: string) => {
       {selectedMovie && (
         <MovieModal movie={selectedMovie} onClose={handleCloseModal} />
       )}
-    </div>
+     </div>
+     
   );
 }
